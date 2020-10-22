@@ -8,9 +8,12 @@ public static void main(String[] args) {
 	int number2=1;
 
 	System.out.println(number1 +","+ number2);
-	for (int i = 0; i < 9; i++) {
+	for (int i = 0; i < 12; i++) {
 		int sum=number1+number2;
 		System.out.println(sum);
+	number1=number2;
+	number2=sum;
 	}
+	
 }
 }
