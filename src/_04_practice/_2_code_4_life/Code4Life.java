@@ -13,14 +13,14 @@ public class Code4Life {
 	 * If you cannot play sound on this computer, set canPlaySounds to false.
 	 * If you are not sure, ask your teacher 
 	 * *****************/
-	static boolean canPlaySounds = true;
+	static boolean canPlaySounds = false;
 	public static void main(String[] args) {
 		
 	
 	
 	// 1. Ask the user how many hours they spent coding this week.
 	String codingtime = JOptionPane.showInputDialog("how many hours have you spent coding this week?");
-	int codingtimeint = Integer.parseInt(codingtime)
+	int codingtimeint = Integer.parseInt(codingtime);
 	// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
 	// write code instead.
 	if (codingtimeint <= 2) {
